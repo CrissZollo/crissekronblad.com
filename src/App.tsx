@@ -38,7 +38,7 @@ function Home() {
 }
 
 function About() {
-  return <h2>About</h2>;
+  return <h2>Linus må vara gay</h2>;
 }
 
 function Users() {
