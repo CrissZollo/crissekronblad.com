@@ -38,7 +38,16 @@ function Home() {
 }
 
 function About() {
-  return <h2>Linus må vara gay</h2>;
+  return (
+    <>
+      <h2>Linus må vara gay</h2>
+      <img
+        src="https://www.dexerto.com/wp-content/uploads/2021/04/28/el-risitas-spanish-laughing-guy-meme.jpg"
+        alt="laughing_img"
+        style={{ height: 500, width: 700 }}
+      />
+    </>
+  );
 }
 
 function Users() {
