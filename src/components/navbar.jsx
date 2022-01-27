@@ -1,23 +1,32 @@
 // The navbar has a simple design and with the links on the left of the page and the links have a blinking typing thing when selected
 
 import "../styles/navbar.scss";
+import React, { useState } from "react";
 
-export default function navbar() {
+export default function Navbar() {
+  const [active, setActive] = useState(false);
+
   return (
     <nav className="navbar">
-      <ul className="navItems">
-        <div className="links">
-          <li className="navItem">
-            <p>Home</p>
+      <div className="logo">Christoffer</div>
+      <a href="##" className="toggle-button" onClick={() => setActive(!active)}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </a>
+      <div className={active ? "active nav-links" : "nav-links"}>
+        <ul>
+          <li>
+            <a href="##">Home</a>
           </li>
-          <li className="navItem">
-            <p>Portfolio</p>
+          <li>
+            <a href="##">About</a>
           </li>
-          <li className="navItem">
-            <p>About Me</p>
+          <li>
+            <a href="##">Projects</a>
           </li>
-        </div>
-      </ul>
+        </ul>
+      </div>
     </nav>
   );
 }
