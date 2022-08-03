@@ -1,0 +1,22 @@
+.projectsContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+
+  .projectsCard {
+    background-color: rgba(177, 243, 170, 0.25);
+    width: 100%;
+    height: 30rem;
+    margin: 3rem 8rem 3rem 8rem;
+    border-radius: 5px;
+
+    .projectsCard-title {
+      font-size: 2em;
+      font-weight: bold;
+      width: fit-content;
+      padding-left: 0.8rem;
+      padding-top: 0.5rem;
+    }
+  }
+}
