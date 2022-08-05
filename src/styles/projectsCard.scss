@@ -7,30 +7,48 @@
   .projectsCard {
     background-color: rgba(177, 243, 170, 0.25);
     width: 100%;
-    height: 30rem;
-    margin: 3rem 8rem 3rem 8rem;
+    height: 35rem;
+    margin: 2rem;
     border-radius: 5px;
 
     .projectsCard-title {
-      font-size: 2em;
-      font-weight: bold;
+      display: inline-block;
       width: fit-content;
       padding-left: 0.8rem;
       padding-top: 0.5rem;
-
-      &:after {
-        content: "_";
-        animation: blinking 1.1s infinite;
-
-        @keyframes blinking {
-          0% {
-            opacity: 0;
+      & p {
+        font-size: 2em;
+        font-weight: bold;
+        overflow: hidden;
+        /*letter-spacing: 0.3em;*/
+        /*animation: typing 5s steps(9, end) infinite;*/
+        /*
+        @keyframes typing {
+          from {
+            width: 0;
           }
-          49% {
-            opacity: 0;
+          to {
+            width: 100%;
           }
-          50% {
-            opacity: 1;
+        }
+        */
+
+        &:after {
+          content: "_";
+          margin-left: 10px;
+          color: #ffffff;
+          animation: blinking 1s infinite;
+
+          @keyframes blinking {
+            0% {
+              opacity: 0;
+            }
+            49% {
+              opacity: 0;
+            }
+            50% {
+              opacity: 1;
+            }
           }
         }
       }

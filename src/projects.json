@@ -1,0 +1,20 @@
+{
+  "project_1": {
+    "id": 0,
+    "name": "test1",
+    "description": "This is the first Project in the json file",
+    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+  },
+  "project_2": {
+    "id": 1,
+    "name": "test2",
+    "description": "This is the second Project in the json file",
+    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+  },
+  "project_3": {
+    "id": 2,
+    "name": "test3",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+  }
+}
