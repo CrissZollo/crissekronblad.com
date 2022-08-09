@@ -1,20 +1,50 @@
-{
-  "project_1": {
+[
+  {
     "id": 0,
     "name": "test1",
     "description": "This is the first Project in the json file",
-    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+    "imageURL": "https://picsum.photos/350/525?random=3"
   },
-  "project_2": {
+  {
     "id": 1,
     "name": "test2",
     "description": "This is the second Project in the json file",
-    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+    "imageURL": "https://picsum.photos/350/525?random=1"
   },
-  "project_3": {
+  {
     "id": 2,
     "name": "test3",
     "description": "This is the third Project in the json file",
-    "imageURL": "https://raw.githubusercontent.com/CrissZollo/crissekronblad.com/main/src/img/Monkey_Space_Shooter.png"
+    "imageURL": "https://picsum.photos/350/525?random=65"
+  },
+  {
+    "id": 3,
+    "name": "test4",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://picsum.photos/350/525?random=12"
+  },
+  {
+    "id": 4,
+    "name": "test5",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://picsum.photos/350/525?random=345"
+  },
+  {
+    "id": 5,
+    "name": "test6",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://picsum.photos/350/525?random=234"
+  },
+  {
+    "id": 6,
+    "name": "test7",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://picsum.photos/350/525?random=657"
+  },
+  {
+    "id": 7,
+    "name": "test8",
+    "description": "This is the third Project in the json file",
+    "imageURL": "https://picsum.photos/350/525?random=86"
   }
-}
+]

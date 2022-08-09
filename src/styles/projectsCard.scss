@@ -1,5 +1,8 @@
 .projectsContainer {
-  width: 100%;
+  max-width: 100vw;
+  height: 35rem;
+  margin-left: 1em;
+  margin-right: 1em;
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -7,9 +10,9 @@
   .projectsCard {
     background-color: rgba(177, 243, 170, 0.25);
     width: 100%;
-    height: 35rem;
     margin: 2rem;
     border-radius: 5px;
+    padding: 1em;
 
     .projectsCard-title {
       display: inline-block;
@@ -50,6 +53,28 @@
               opacity: 1;
             }
           }
+        }
+      }
+    }
+
+    .projectsCard-projects {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      overflow-x: scroll;
+
+      & div {
+        height: fit-content;
+        padding: 1em;
+
+        & p {
+          text-align: center;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+
+        & img {
+          height: 70%;
         }
       }
     }

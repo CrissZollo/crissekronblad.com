@@ -11,5 +11,10 @@ export default function Project({
   description,
   imageURL,
 }: projectProps) {
-  return <img src={imageURL} alt={name} />;
+  return (
+    <>
+      <img src={imageURL} alt={name} />
+      <p>{name}</p>
+    </>
+  );
 }

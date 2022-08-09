@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import "../styles/projectsCard.scss";
 import Project from "./project";
 
@@ -14,14 +12,15 @@ export default function ProjectsCard() {
         <div className="projectsCard-title">
           <p>Projects</p>
         </div>
-        {Object.keys(projectsJSON).map((key, i) => {
-          console.log(typeof key);
-          return (
-            <div key={i}>
-              <Project {...projectsJSON["project_1"]} />;
-            </div>
-          );
-        })}
+        <div className="projectsCard-projects scrollbar">
+          {Object.keys(projectsJSON).map((key, i) => {
+            return (
+              <div key={i}>
+                <Project {...projectsJSON[i]} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
