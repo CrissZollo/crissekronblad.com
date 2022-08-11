@@ -14,7 +14,7 @@ export default function Project({
   return (
     <>
       <img src={imageURL} alt={name} />
-      <p>{name}</p>
+      <p>{name} New and improved</p>
     </>
   );
 }
