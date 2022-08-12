@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Christoffer</div>
+      <div className="logo">Christoffer Kronblad</div>
       <a href="##" className="toggle-button" onClick={() => setActive(!active)}>
         <span className="bar"></span>
         <span className="bar"></span>
