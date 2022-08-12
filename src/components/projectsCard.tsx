@@ -7,7 +7,7 @@ export default function ProjectsCard() {
   //const [runOnce, setRunOnce] = useState(false);
 
   return (
-    <div className="projectsContainer">
+    <div className="projectsContainer" id="projects">
       <div className="projectsCard">
         <div className="projectsCard-title">
           <p>Projects</p>
