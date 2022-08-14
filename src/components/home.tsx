@@ -5,7 +5,7 @@ import Intro from "./intro";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div id="home">
       <Navbar />
       <Intro />
       <Welcome />

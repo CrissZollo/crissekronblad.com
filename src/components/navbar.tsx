@@ -17,13 +17,19 @@ export default function Navbar() {
       <div className={active ? "active nav-links" : "nav-links"}>
         <ul>
           <li>
-            <a href="##">Home</a>
+            <a href="#home" onClick={() => setActive(!active)}>
+              Home
+            </a>
           </li>
           <li>
-            <a href="##">About</a>
+            <a href="#welcome" onClick={() => setActive(!active)}>
+              Welcome
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={() => setActive(!active)}>
+              Projects
+            </a>
           </li>
         </ul>
       </div>

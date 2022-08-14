@@ -1,9 +1,10 @@
-import wavy from "../img/wavy.svg";
+import wavy from "../img/wavy_brown.svg";
 import "../styles/welcome.scss";
 
 export default function Welcome() {
   return (
-    <div className="welcome-container">
+    <div className="welcome-container" id="welcome">
+      {/*
       <div className="wavy-container">
         <div className="wavy">
           <img id="wavy-left" src={wavy} alt="Wavy" />
@@ -12,6 +13,7 @@ export default function Welcome() {
           <img id="wavy-right" src={wavy} alt="Wavy" />
         </div>
       </div>
+      */}
       <div className="welcome-text-container">
         <h1 id="welcome-title">Hello World</h1>
         <p>
